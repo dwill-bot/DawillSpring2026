@@ -4,7 +4,7 @@
 # Assignment Number: Assignment 2
 # Due Date: 02/18/ 2026
 # Purpose: Program that creates a list with springs
-# Resources:
+# Resources:W3schools.com
 
 
 import statistics #import statistics for average-mean
@@ -35,3 +35,4 @@ results.sort(key= get_average, reverse=True)
 
 for name, avg in results:
     print(f"{name} {avg:.2f}")
+
