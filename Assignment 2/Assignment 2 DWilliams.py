@@ -8,7 +8,7 @@
 
 
 import statistics #import statistics for average-mean
-grades = open("Assignment2input.txt", "r") # Open the external file
+grades = open("Assignment 2/Assignment2input.txt", "r") # Open the external file
 
 results = []
 
