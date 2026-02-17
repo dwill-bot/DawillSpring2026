@@ -3,7 +3,7 @@
 # Student Name: David Williams
 # Assignment Number: Assignment 2
 # Due Date: 02/18/ 2026
-# Purpose: Program that creates a list with springs
+# Purpose: Program that Averages grades from text file and output them in descending order
 # Resources:W3schools.com
 
 
@@ -35,4 +35,5 @@ results.sort(key= get_average, reverse=True)
 
 for name, avg in results:
     print(f"{name} {avg:.2f}")
+
 
